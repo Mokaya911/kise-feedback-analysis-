@@ -1,13 +1,22 @@
-# KISE Feedback Analysis
-This project analyzes feedback data from KISE to find insights.
+# 🎓 KISE Student Feedback Analysis
 
-## Tools Used
-- Python
-- Jupyter Notebook
-- [Add other tools, like Matplotlib or SQL]
+This project analyzes qualitative feedback from students at KISE to identify key themes and issues in service delivery and training.
 
-## How to Run
-- Open the Jupyter Notebook and follow the steps inside.
+## 🧠 Objectives
+- Extract themes from open-ended survey responses
+- Quantify frequencies of common concerns
+- Present key quotes per theme
 
-## What It Does
-- [Explain what you found, like key feedback trends or charts]
+## 📁 Files Included
+- `feedback_data.csv` – raw data
+- `theme_summary.ipynb` – Jupyter analysis
+- `theme_visuals/` – saved plots
+
+## 📊 Example Output
+- Bar chart of most mentioned themes
+- Word clouds of student responses
+- Sample quotes per theme (Training, Environment, Staff)
+
+## ▶️ Run Instructions
+```bash
+pip install pandas matplotlib seaborn wordcloud
