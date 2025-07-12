@@ -1,22 +1,61 @@
-# 🎓 KISE Student Feedback Analysis
+# 🧠 KISE Feedback Analysis
 
-This project analyzes qualitative feedback from students at KISE to identify key themes and issues in service delivery and training.
+This project analyzes qualitative feedback data collected from participants at KISE to extract themes, summarize concerns, and visualize trends.
 
-## 🧠 Objectives
-- Extract themes from open-ended survey responses
-- Quantify frequencies of common concerns
-- Present key quotes per theme
+---
 
-## 📁 Files Included
-- `feedback_data.csv` – raw data
-- `theme_summary.ipynb` – Jupyter analysis
-- `theme_visuals/` – saved plots
+## 📚 Project Summary
 
-## 📊 Example Output
-- Bar chart of most mentioned themes
-- Word clouds of student responses
-- Sample quotes per theme (Training, Environment, Staff)
+We conducted qualitative coding on open-ended feedback and categorized them into themes like:
 
-## ▶️ Run Instructions
-```bash
-pip install pandas matplotlib seaborn wordcloud
+- Training effectiveness
+- Instructor quality
+- Support services
+
+---
+
+## 🧰 Tools Used
+
+- Python
+- Jupyter Notebook
+- Pandas, WordCloud, Matplotlib
+- Manual coding + automated frequency analysis
+
+---
+
+## 🔍 Sample Output
+
+| Theme | Frequency |
+|-------|-----------|
+| Training | 23 |
+| Support | 15 |
+| Materials | 11 |
+
+![Word Cloud](images/wordcloud.png)
+
+---
+
+## 📝 Data Source
+
+Manually entered open feedback responses from anonymous survey.
+
+---
+
+## ▶️ How to Run
+
+1. Open `feedback_analysis.ipynb`
+2. Load data file
+3. Run notebook to generate summaries and visuals
+
+---
+
+## 📝 License
+
+MIT
+
+---
+
+## 📎 Notes
+
+This project includes both qualitative and quantitative analysis for education feedback. Codebook and sample quotes available in notebook.
+
